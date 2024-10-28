@@ -1,11 +1,13 @@
 import axios from "axios";
-import Header from "./components/Header";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function Home() {
-  return (
+    return (
     <>
-      <Header />
-      
-    </>
-  );
+    < Header />
+      <p>loreem ipsum</p>
+    <Footer/>
+
+</>);
 }
