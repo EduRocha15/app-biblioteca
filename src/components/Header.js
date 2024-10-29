@@ -8,7 +8,7 @@ import { FaPlus } from "react-icons/fa";
 export default function Header () {
 
     return (
-        <Navbar bg="primary" data-bs-theme="dark">
+        <Navbar style={{backgroundColor: '#105b63'}} data-bs-theme="dark">
             <Container>
             <Navbar.Brand href="#home" style={{fontSize: 30}}>  <FaPlus/></Navbar.Brand>
             <Nav className="d-flex">
